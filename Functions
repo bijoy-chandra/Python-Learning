@@ -1,0 +1,43 @@
+#!/bin/python3
+
+# Funcions
+
+def who_am_i (): # This is a function
+	name = "Kratos"
+	age = 25
+	print("My name is " + name + " and i am " + str(age) + " years old")
+who_am_i()
+print('\n')
+
+# Adding numbers
+
+print("Adding Numbers:")
+def add_one_hundred(num):
+	print(num + 100)
+add_one_hundred(100)
+print('\n')
+
+# Multiple Parameters
+
+print("Multiple Parameters:")
+def add (x,y):
+	print (x+y)
+add (5,7)
+print('\n')
+
+# Use of return function
+
+print("Return Function:")
+def multiply (x,y):
+	return(x*y)
+print (multiply(5,7))
+print('\n')
+
+# Square Root
+
+print("Square Root:")
+def root(x):
+	print(x** 2)
+root(5)
+print('\n')
+print ("The End")
