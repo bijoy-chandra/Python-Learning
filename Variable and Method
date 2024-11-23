@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Variable and Method
+
+# Variable
+quote = " Hacking is like an art. "
+print(quote)
+
+# Method
+
+print(quote.upper()) # Uppercase
+print(quote.lower()) # Lowercase
+print(quote.title()) # Title
+print(len(quote)) # Length
+
+name = "Kratos" # String
+age = 25 # Integer value
+gpa = 3.4 # Float value
+
+print(int(age))
+print("My name is " + name + " and i am " + str(age) + " years old")
+
+age += 1
+print(age)
