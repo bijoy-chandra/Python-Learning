@@ -1,0 +1,33 @@
+#!/bin/python3
+
+# Boolean Expression
+
+print("Boolean Expression:")
+
+bool1 = True
+bool2 = 3*3 == 9
+bool3 = False
+bool4 = 3*3 != 9
+print(bool1, bool2, bool3, bool4)
+print(type(bool1))
+
+def newline():
+	print('\n')
+newline()
+
+# Relational and Boolean Opeartor
+greater_than = 7 > 5
+less_than = 5 < 7
+greater_equal = 7 >= 7
+less_equal = 7 >= 7
+
+# AND, OR, NOT
+test_and = (7 > 5) and (5 < 7)
+test_and2 = (7 > 5) and (5 > 7)
+test_or = (7 > 5) or (5 < 7)
+test_or2 = (7 > 5) or (5 > 7)
+
+test_not = not True
+test_not2 = not False
+
+print(greater_than, less_than, greater_equal, less_equal, test_and, test_and2, test_or, test_or2, test_not, test_not2)
