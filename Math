@@ -1,0 +1,13 @@
+#!/bin/python3
+
+# Math
+
+print(50+50) # Addition
+print(50-50) # Subtraction
+print(50*50) # Multiplication
+print(50/50) # Divide
+print(50+50-50*50/50) # PEMDAS
+print(50**2) # Exponential
+print(50 % 6) # Module
+print(50 / 6) # leftover
+print(50 // 6) # No leftovers
