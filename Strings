@@ -1,0 +1,14 @@
+#!/bin/python3
+
+print ("Hello World!") # Double quotation
+
+print ('\n') # New line
+
+print ('Hello World!') # Single quotation
+
+print ("""This string runs
+multiple lines""") # Triple quote for multiple lines
+
+print ("This string is "+"awesome")
+
+print ("Hello world" '\n' "Welcome your new hacker.......")
