@@ -1,0 +1,23 @@
+#!/bin/python
+
+# Lists
+fruits = ["Apple", "Orange", "Pineapple", "Watermelon", "Papaya", "Guava", "Banana"]
+
+print(fruits[0:]) # Pulls everything on the lits
+print(fruits[0]) # Pulls first input on the lits
+print(fruits[1]) # Pulls second input on the list
+print(fruits[-1]) # Pulls last input on the list
+print(fruits[1:]) # Pulls everything after 1st input
+print(fruits[:1]) # Pulls everything before 2nd input
+print(fruits[1:6]) # From second to number six
+
+print(len(fruits)) # How may items on the list
+
+fruits.append ("Cocomelon") # If you want add something on the list. It will add last on the list.
+print(fruits)
+
+fruits.pop() # If you want delete something from the list
+print(fruits)
+
+fruits.pop(3) # Deleting specific number of item in the list
+print(fruits)
