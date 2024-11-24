@@ -1,0 +1,12 @@
+#!/bin/python3
+# Importing Module
+
+import sys  # System function and parameter
+print(sys.version)  # Printig python version
+
+
+from datetime import datetime
+print(datetime.now())
+
+from datetime import datetime as dt    # Import with alias
+print(dt.now())
