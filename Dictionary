@@ -1,0 +1,28 @@
+#!/bin/python3
+# Dictionary - Key/Value pairs
+
+# Here "Apple" is the KEY and 3 is the vaule
+Fruits = {"Apple": 3, "Orange": 6, "Banana": 1}
+print(Fruits)
+print('\n')
+
+employees = {"Security": ["Ritesh", "Avik", "Tripty"], "Developer": ["Avik", "Shreyas", "Roshan"]}
+print(employees)
+print('\n')
+
+# Add new dictionary
+employees['SQA'] = ["Sinthiya", "Alok"]
+print(employees)
+print('\n')
+
+# Add new dictionary
+employees.update({"System": ["Rohit", "Gautam", "Sunil"]})
+print(employees)
+print('\n')
+
+# Updating value into the apple price
+Fruits['Apple'] = 4
+print(Fruits)
+print('\n')
+
+print(Fruits.get("Banana"))
